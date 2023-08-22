@@ -1,4 +1,3 @@
-import json
 import logging
 
 from api.session import Session

@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+  tests_api:
+    build: .
+    image: pytest_api
+    container_name: pytest_api_works
+    volumes:
+      - .:/tests_project
